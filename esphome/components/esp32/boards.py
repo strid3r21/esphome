@@ -94,7 +94,23 @@ ESP32_BOARD_PINS = {
         "SW2": 2,
         "SW3": 0,
     },
-    "az-delivery-devkit-v4": {},
+    "az-delivery-devkit-v4": {
+    },
+     "bee-s3": {
+        "VBAT_VOLTAGE": 1,
+        "D3": 3,
+        "D4": 4,
+        "D5": 5,
+        "D6": 6,
+        "D7": 7,
+        "D8": 8,
+        "D9": 9,
+        "D10": 10,
+        "SDA": 37,
+        "SCL": 36,
+        "RGB_LED": 48,
+        "RGB_PWR": 34,
+    },
     "bpi-bit": {
         "BUTTON_A": 35,
         "BUTTON_B": 27,
@@ -1002,6 +1018,7 @@ done | sort
 BOARD_TO_VARIANT = {
     "alksesp32": VARIANT_ESP32,
     "az-delivery-devkit-v4": VARIANT_ESP32,
+    "bee-s3": VARiANT_ESP32S3,
     "bpi-bit": VARIANT_ESP32,
     "briki_abc_esp32": VARIANT_ESP32,
     "briki_mbc-wb_esp32": VARIANT_ESP32,
